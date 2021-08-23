@@ -1,0 +1,22 @@
+body {
+    background-color: #e7e7de;
+    padding-top: 100px;
+}
+
+div {
+    margin: 0 auto;
+    width: 900px;
+    background-color: #00587a;
+    border-radius: 15px;
+    border: 2px solid #222831;
+}
+
+
+p {
+    margin: 50px 0;
+    color: #e7e7de;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+
+}
