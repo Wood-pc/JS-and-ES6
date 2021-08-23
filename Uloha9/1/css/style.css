@@ -1,0 +1,53 @@
+body {
+	background: url('../img/sativa.png');
+	padding: .25em 2em;
+}
+
+.get-data-wrapper {
+	text-align: center;
+}
+
+.get-data-wrapper .get-data {
+	border-radius: .35em;
+	box-shadow: 0 0 5px #e3e3e3;
+	border: 1px solid #dfdfdf;
+	background: orange;
+	outline: 0;
+	color: white;
+	padding: 1em 1.4em;
+	cursor: pointer;
+	transition: background .2s;
+}
+
+.get-data-wrapper .get-data:hover {
+	background: rgb(233, 151, 0);
+}
+
+ol {
+	width: 20em;
+	margin: 2em auto;
+	border: 1px solid #dfdfdf;
+	list-style: none;
+	padding-left: 0;
+	border-radius: .35em;
+	box-shadow: 0 0 5px #e3e3e3;
+}
+
+li {
+	color: orange;
+	padding: 1.4em;
+	border-bottom: 1px solid #dfdfdf;
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	background-color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+li:first-child {
+	border-radius: .35em .35em 0 0;
+}
+
+li:last-child {
+	border-radius: 0 0 .35em .35em;
+	border-bottom: none;
+}
